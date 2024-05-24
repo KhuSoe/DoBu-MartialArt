@@ -1,0 +1,236 @@
+.body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 70px;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+.login-body{
+    background-color: white;
+    color: black;
+}
+
+nav{
+    background-color: black;
+}
+.video-column {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.video-column video {
+    width: 100%;
+    object-fit: cover; /* Ensure the video covers the entire column */
+}
+
+/* Default style for the video */
+.service-video {
+    width: 100%; /* Make the video fill the entire width of its container */
+    height: auto; /* Maintain aspect ratio and adjust height accordingly */
+}
+
+/* Media query for laptop screens */
+@media (min-width: 992px) {
+    .service-video {
+        width: 70%; /* Set the video width to 50% of its container on laptop screens */
+    }
+}
+
+.custom-h1 {
+    font-size: 4rem; /* Adjust the font size as desired */
+    /* Add any other desired styles */
+}
+.custom-h2{
+    font-size: 2.5rem;
+    color: black;
+    margin: 20px 0; 
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: Impact, fantasy;
+
+}
+.full-width-container{
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+footer{
+    position: relative;
+    width: 100vw;
+    background-color: #000;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 850px) {
+    .custom-h1 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    .custom-h2{
+        font-size: 1.2rem;
+    }
+    .body{
+        padding-top: 70px;
+    }
+    .section_header54{
+        background-image: none;
+    }
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+i{
+    font-size: large;
+    background-color: aliceblue;
+}
+
+.thick-line {
+    border: none;
+    height: 3px; /* Adjust the height for desired thickness */
+    background-color: #ffffff; /* Adjust the color as needed */
+}
+
+.hover-effect-container {
+    margin: 0%;
+    position: relative;
+    overflow: hidden;
+}
+.hover-effect-text {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: bottom 0.5s ease;
+}
+.hover-effect-text p {
+    margin: 20px; /* Adjust margin as needed */
+}
+.hover-effect-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/*  */
+.section_header54 {
+    background-image: url("/Assets/schedule.jpg");
+    background-position: 0 0;
+    background-size: auto;
+    position: relative;
+  }
+  .padding-global {
+    object-fit: fill;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .container-large {
+    width: 100%;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .padding-section-large {
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+  }
+  .max-width-large {
+    width: 100%;
+    max-width: 55rem;
+  }
+  .margin-bottom.margin-small.is-left {
+    margin-bottom: 0;
+    display: block;
+  }
+  .text-size-medium-2 {
+    color: yellow;
+    font-size: 1.3rem;
+  }
+
+  /* schedule table */
+
+.timetable-container {
+    margin: 20px 0;
+}
+
+.timetable {
+    table-layout: fixed;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.timetable th, .timetable td {
+    border: 1px solid #ffffff; /* Changed border color to black */
+    text-align: center;
+    padding: 10px;
+    color: white; /* Text color for better contrast on dark background */
+}
+.carousel-item table {
+    margin-bottom: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: yellow;
+}
+
+.inner-wrapper .timetable-heading {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.carousel-indicators button {
+    background-color: yellow;
+}
+
+.carousel-indicators .active {
+    background-color: yellow;
+}
+.inner-wrapper .timetable th{
+    background-color: yellow; /* Changed background color to black */
+    color: black; /* Text color for better contrast on dark background */
+    border-color: yellow; /* Changed border color to black */
+}
+.inner-wrapper .timetable td {
+    background-color: #000; /* Changed background color to black */
+    color: white; /* Text color for better contrast on dark background */
+    border-color: yellow; /* Changed border color to black */
+}
+
+/*  */
+.map-container {
+    height: 400px; /* Adjust the height as needed */
+    width: 100%;
+}
